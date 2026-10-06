@@ -1,0 +1,12 @@
+Golf Signal / Golf Radar
+
+This project originated from customization of AIHOT:
+https://github.com/KKKKhazix/AIHOT
+Copyright (c) 2026 数字生命卡兹克. MIT license; see LICENSE.
+
+This standalone MVP uses a lightweight local runtime rather than the full
+AIHOT PostgreSQL / worker / model-processing pipeline. The upstream copyright
+notice is retained. AIHOT's name and logo are not used as product branding.
+
+Third-party feed content is owned by its publishers and is not covered by
+the code license. No cached publisher or Reddit content is distributed here.

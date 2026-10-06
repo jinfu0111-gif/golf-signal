@@ -1,0 +1,73 @@
+{
+  "$comment": "Manual RSS refresh only; no scheduled collection or Reddit access.",
+  "sources": [
+    {
+      "id": "rss-mygolfspy",
+      "name": "MyGolfSpy",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://mygolfspy.com/feed/"
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "tags": [
+        "媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-golfcom",
+      "name": "GOLF.com",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://golf.com/feed/"
+      },
+      "tier": "T2",
+      "first_party": false,
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "tags": [
+        "媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-sunmountain",
+      "name": "Sun Mountain",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.sunmountain.com/blogs/blog.atom"
+      },
+      "tier": "T1",
+      "first_party": true,
+      "owner_entity_id": "sun-mountain",
+      "participation_mode": "editorial",
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    },
+    {
+      "id": "rss-titleist",
+      "name": "Titleist",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.titleist.com/teamtitleist/b/tourblog/rss"
+      },
+      "tier": "T1",
+      "first_party": true,
+      "owner_entity_id": "titleist",
+      "participation_mode": "editorial",
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false
+    }
+  ]
+}

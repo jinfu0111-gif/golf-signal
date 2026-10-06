@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS radar_articles (
+  url TEXT PRIMARY KEY NOT NULL,
+  payload TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS radar_feed_runs (
+  id TEXT PRIMARY KEY NOT NULL,
+  payload TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS radar_meta (
+  key TEXT PRIMARY KEY NOT NULL,
+  value TEXT NOT NULL
+);

@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-09-30T08:04:19Z",
+  "sources": [
+    {
+      "id": "mygolfspy",
+      "name": "MyGolfSpy",
+      "url": "https://mygolfspy.com/feed/",
+      "tier": "T2",
+      "status": 200,
+      "count": 10,
+      "checkedAt": "2026-09-30T08:04:19.018269+00:00"
+    },
+    {
+      "id": "golfwrx",
+      "name": "GolfWRX",
+      "url": "https://www.golfwrx.com/feed/",
+      "tier": "T2",
+      "error": "HTTP Error 403: Forbidden",
+      "count": 0
+    },
+    {
+      "id": "golfcom",
+      "name": "GOLF.com",
+      "url": "https://golf.com/feed/",
+      "tier": "T2",
+      "status": 200,
+      "count": 10,
+      "checkedAt": "2026-09-30T08:04:18.642307+00:00"
+    },
+    {
+      "id": "ngf",
+      "name": "National Golf Foundation",
+      "url": "https://www.ngf.org/feed/",
+      "tier": "T1",
+      "status": 200,
+      "count": 0,
+      "checkedAt": "2026-09-30T08:04:18.596781+00:00"
+    },
+    {
+      "id": "sunmountain",
+      "name": "Sun Mountain",
+      "url": "https://www.sunmountain.com/blogs/blog.atom",
+      "tier": "T1",
+      "status": 200,
+      "count": 28,
+      "checkedAt": "2026-09-30T08:04:18.726854+00:00"
+    },
+    {
+      "id": "titleist",
+      "name": "Titleist",
+      "url": "https://www.titleist.com/teamtitleist/b/tourblog/rss",
+      "tier": "T1",
+      "status": 200,
+      "count": 15,
+      "checkedAt": "2026-09-30T08:04:18.951950+00:00"
+    }
+  ],
+  "pending": [
+    {
+      "id": "reddit",
+      "name": "Reddit r/golf",
+      "status": "approval_required",
+      "url": "https://www.reddit.com/r/golf/",
+      "note": "需 Reddit API 访问与商业用途明确批准；未采集帖子或评论"
+    },
+    {
+      "id": "usga",
+      "name": "USGA Equipment Standards",
+      "status": "manual_reference",
+      "url": "https://www.usga.org/equipment-standards.html",
+      "note": "官方入口，自动采集选择器待验证"
+    },
+    {
+      "id": "randa",
+      "name": "The R&A",
+      "status": "manual_reference",
+      "url": "https://www.randa.org/",
+      "note": "官方规则入口，自动采集待验证"
+    },
+    {
+      "id": "sorftime",
+      "name": "Sorftime MCP",
+      "status": "not_connected",
+      "url": "https://www.sorftime.com/en-US/mcp",
+      "note": "尚未接入；Amazon / TikTok 信号范围、额度与数据使用权限待验证；不代表 Reddit 授权"
+    }
+  ]
+}
